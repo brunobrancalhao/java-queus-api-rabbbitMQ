@@ -1,0 +1,6 @@
+br/com/facef/rabbitmqrouting/RabbitmqRoutingApplication.class
+br/com/facef/rabbitmqrouting/dto/Message.class
+br/com/facef/rabbitmqrouting/service/MessageService.class
+br/com/facef/rabbitmqrouting/configuration/DirectExchangeConfiguration.class
+br/com/facef/rabbitmqrouting/controller/MessagesController.class
+br/com/facef/rabbitmqrouting/consumer/MessageConsumer.class

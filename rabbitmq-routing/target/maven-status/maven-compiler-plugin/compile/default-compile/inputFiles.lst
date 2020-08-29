@@ -1,0 +1,6 @@
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-routing/src/main/java/br/com/facef/rabbitmqrouting/controller/MessagesController.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-routing/src/main/java/br/com/facef/rabbitmqrouting/dto/Message.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-routing/src/main/java/br/com/facef/rabbitmqrouting/configuration/DirectExchangeConfiguration.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-routing/src/main/java/br/com/facef/rabbitmqrouting/RabbitmqRoutingApplication.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-routing/src/main/java/br/com/facef/rabbitmqrouting/consumer/MessageConsumer.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-routing/src/main/java/br/com/facef/rabbitmqrouting/service/MessageService.java
