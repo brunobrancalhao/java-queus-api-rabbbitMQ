@@ -1,0 +1,6 @@
+br/com/facef/rabbitmqtopic/controller/CityController.class
+br/com/facef/rabbitmqtopic/RabbitmqTopicApplication.class
+br/com/facef/rabbitmqtopic/consumer/MessageConsumer.class
+br/com/facef/rabbitmqtopic/configuration/TopicExchangeConfiguration.class
+br/com/facef/rabbitmqtopic/service/CityService.class
+br/com/facef/rabbitmqtopic/dto/City.class

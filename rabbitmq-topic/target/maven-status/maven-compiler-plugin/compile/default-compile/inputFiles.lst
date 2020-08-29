@@ -1,0 +1,6 @@
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-topic/src/main/java/br/com/facef/rabbitmqtopic/configuration/TopicExchangeConfiguration.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-topic/src/main/java/br/com/facef/rabbitmqtopic/RabbitmqTopicApplication.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-topic/src/main/java/br/com/facef/rabbitmqtopic/controller/CityController.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-topic/src/main/java/br/com/facef/rabbitmqtopic/consumer/MessageConsumer.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-topic/src/main/java/br/com/facef/rabbitmqtopic/dto/City.java
+/home/bruno/Documentos/Pós Graduação/rabbitmq/aula-tarde 29-08/rabbitmq-facef/rabbitmq-topic/src/main/java/br/com/facef/rabbitmqtopic/service/CityService.java
