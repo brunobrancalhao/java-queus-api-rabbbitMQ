@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd8cfc09-4490-469c-a2e2-6b019606bd3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/facef/rabbitmqrouting/dto/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/facef/rabbitmqrouting/dto/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +18,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rabbitmq-topic" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,7 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598720363902</updated>
       <workItem from="1598720367247" duration="1496000" />
-      <workItem from="1598721910592" duration="269000" />
+      <workItem from="1598721910592" duration="918000" />
+      <workItem from="1598722871169" duration="28000" />
     </task>
     <servers />
   </component>
