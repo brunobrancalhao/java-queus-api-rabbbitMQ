@@ -11,4 +11,20 @@ public class Message {
 
   private String orderId;
   private String paymentType;
+
+  public String getOrderId() {
+    return orderId;
+  }
+
+  public void setOrderId(String orderId) {
+    this.orderId = orderId;
+  }
+
+  public String getPaymentType() {
+    return paymentType;
+  }
+
+  public void setPaymentType(String paymentType) {
+    this.paymentType = paymentType;
+  }
 }
