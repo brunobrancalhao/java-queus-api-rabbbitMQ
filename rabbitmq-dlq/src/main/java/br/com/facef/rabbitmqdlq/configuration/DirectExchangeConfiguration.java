@@ -16,6 +16,8 @@ public class DirectExchangeConfiguration {
   public static final String DIRECT_EXCHANGE_NAME = "order-exchange";
   public static final String ORDER_MESSAGES_QUEUE_NAME = "order-messages-queue";
   public static final String ORDER_MESSAGES_QUEUE_DLQ_NAME = ORDER_MESSAGES_QUEUE_NAME + ".dlq";
+  public static final String ORDER_MESSAGES_QUEUE_PARKING_LOT_NAME = ORDER_MESSAGES_QUEUE_NAME + ".parkingLot";
+  public static final String X_RETRIES_HEADER = "x-retries";
 
   @Bean
   Queue orderMessagesQueue() {
@@ -33,6 +35,11 @@ public class DirectExchangeConfiguration {
   @Bean
   DirectExchange exchange() {
     return ExchangeBuilder.directExchange(DIRECT_EXCHANGE_NAME).durable(true).build();
+  }
+
+  @Bean
+  Queue parkingLotQueue() {
+    return QueueBuilder.durable(ORDER_MESSAGES_QUEUE_PARKING_LOT_NAME).build();
   }
 
   @Bean
