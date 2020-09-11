@@ -9,6 +9,7 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Map;
 
@@ -60,6 +61,26 @@ public class MessageConsumer {
   @RabbitListener(queues = DirectExchangeConfiguration.ORDER_MESSAGES_QUEUE_PARKING_LOT_NAME)
   public void processOrderMessageParkingLot(Message message) {
     log.info("Processing message ParkingLot: {}", message.toString());
+    //Consome a fila parking lot e salva em um arquivo txt os logs
+    try {
+      File file = new File("parkingLotLog.txt");
+
+      // Se o arquivo nao existir, ele gera
+      if (!file.exists()) {
+        file.createNewFile();
+      }
+
+      FileWriter fw = new FileWriter(file.getAbsoluteFile(), true);
+      BufferedWriter bw = new BufferedWriter(fw);
+
+      // Escreve e fecha arquivo
+      bw.write(message.toString());
+      bw.close();
+
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+
   }
 
 
